@@ -90,7 +90,7 @@ export default function SidebarApp({ videoId }: SidebarAppProps) {
     setIsProcessing(true);
     
     try {
-      const response = await fetch('https://youtube-ai-chat-guojh08h7-job-oyebisis-projects.vercel.app/api/video/process', {
+      const response = await fetch('https://youtube-ai-extension-sable.vercel.app/api/video/process', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -146,7 +146,7 @@ export default function SidebarApp({ videoId }: SidebarAppProps) {
     setIsLoading(true);
 
     try {
-      const response = await fetch('https://youtube-ai-chat-guojh08h7-job-oyebisis-projects.vercel.app/api/chat', {
+      const response = await fetch('https://youtube-ai-extension-sable.vercel.app/api/chat', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
